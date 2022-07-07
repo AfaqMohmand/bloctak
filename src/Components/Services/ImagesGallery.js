@@ -1,0 +1,9 @@
+export { default as Dapp } from "../../assets/Dapp.png";
+export { default as Discord } from "../../assets/Discord.png";
+export { default as NFTGeneration } from "../../assets/NFT-Generation.png";
+export { default as SecurityAudit } from "../../assets/Security-Audit.png";
+export { default as SmartContractAudit } from "../../assets/Smart-Contract-Audit.png";
+export { default as SmartContractCreation } from "../../assets/Smart-Contract-Creation.png";
+export { default as Web3 } from "../../assets/Web-3.0.png";
+export { default as WebsiteCreation } from "../../assets/Website-Creation.png";
+export { default as WhitepaperDevelopment } from "../../assets/Whitepaper-Development.png";

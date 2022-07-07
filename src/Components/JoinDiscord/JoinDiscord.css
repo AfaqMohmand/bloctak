@@ -1,0 +1,92 @@
+.JoinDiscord{
+    background-image: url('../../assets/BgGrains.png');
+    background-color: #131A24;
+}
+.join-discord-container{
+    padding: 4vh 7vw;
+}
+.JoinDiscord img{
+    width: 100%;
+}
+.first-con{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.first-con p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vw;
+    padding-left: 1vw;
+    color: #F2F2F2;
+}
+.first-con span{
+    font-family: 'Poppins';
+    font-weight: 600;
+    vertical-align: middle;
+    font-style: normal;
+    padding-left: 2vw;
+    font-size: 2vw;
+    color: #F2F2F2;
+}
+.second-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-con h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    color: #F2F2F2;
+    font-size: 5vw;
+}
+.second-con h1 span{
+    background: linear-gradient(86.02deg, #009CCC 0%, #00BCB3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.second-con p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    color: #F2F2F2;
+}
+.second-con p span{
+    color: #F2F2F2;
+}
+.discrod-icon{
+    color: #009CCC;
+    vertical-align: middle;
+    margin-right: 0.5vw;
+}
+.JoinDiscord img{
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+}
+@media screen and (min-width:360px) and (max-width:768px){
+     .first-con{
+        justify-content: center;
+    }
+    .first-con p{
+        font-size: 6vw;
+    }
+    .second-con{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .second-con h1{
+        font-size: 7vw;
+    }
+    .second-con p span{
+        background-color: transparent;
+        border: none;
+        vertical-align: middle;
+         }
+    .second-con p{
+        font-size: 5vw;
+    }
+}

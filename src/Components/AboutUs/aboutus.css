@@ -1,0 +1,78 @@
+.about-us{
+    font-size: 4vw;
+}
+.about-section{
+    padding: 15vh 7vw;
+    display: flex;
+    align-items: center;
+}
+.about-content{
+    padding-left: 8vw;
+}
+.about-content-h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 3.4375vw;
+    color: #FFFFFF;
+}
+.about-content img{
+    height: 7vh;
+}
+.about-content-p{
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.61875vw;
+    letter-spacing: 0.02em;
+    color: #F2F2F2;
+}
+.about-content span{
+    background: linear-gradient(86.02deg, #009CCC 0%, #00BCB3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.about-img{
+    padding-top: 7vh;
+}
+@media screen and (max-width:480px){
+    .about-img img{
+        transform: scale(0.8);
+        margin-left: 7vw;
+
+    }
+}
+@media screen and (max-width:768px){
+    .about-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-section{
+        padding: 1vh 0vw;
+    }
+    .about-content img{
+        align-items: center;
+    }
+    .about-content{
+        text-align: center;
+        padding-top: 3vh;
+    }
+    .about-content-h1{
+        font-size: 6vw;
+        padding: 1vw 2vh;
+    }
+    .about-content-p{
+        font-size: 4vw;
+        letter-spacing: 0.11em;
+        margin-left: -7vw;
+    }
+
+}
+@media screen and(max-width:1024px){
+    .about-content-h1{
+        font-size: 1vw;
+    }
+}

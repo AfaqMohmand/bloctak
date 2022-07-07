@@ -1,0 +1,119 @@
+.contactUs{
+    padding: 1vh 7vw;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3vh 3vw;
+    margin: 3vh 0vw;
+    background-color:#111621;
+    flex-direction:column ;
+}
+.contact-us-h3{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 3.90625vw;
+    color: #F2F2F2;
+    text-align: center;
+}
+.contact-us-h3 span{
+    background: linear-gradient(86.02deg, #009CCC 0%, #00BCB3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.contact-us-p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-size: 1.71875vw;
+    font-weight: 500;
+    text-align: center;
+    color: #F2F2F2;
+}
+.form-container input::placeholder{
+    text-align: start;
+}
+.input-field p{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25vw;
+    padding: 1vh 0vw;
+    color: #F2F2F2;
+}
+.input-field{
+    padding: 1vh 0vw;
+}
+.input-field-inner{
+    /* padding: 2vh 32vw; */    
+    height: 8vh;
+    width: 75vw;
+    color: white;
+    background-color: #0A0E13;
+    border: none;
+}
+input{
+    padding: 1vh 1vw;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+textarea{
+    resize: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+textarea::placeholder{
+    padding: 1vh 1vw;
+}
+.input-field-inner-text-area{
+    /* padding: 8vh 32vw; */
+    height: 30vh;
+    width: 75vw;
+    color: white;
+    background-color: #0A0E13;
+    border: none;
+}
+.contact-btn{
+    border: none;
+    padding: 2vh 1vw;
+    background: linear-gradient(86.02deg, #009CCC 0%, #00BCB3 100%);
+    box-shadow: 0px 8px 32px rgba(0, 188, 179, 0.16);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+.contact-btn img{
+    vertical-align: middle;
+    padding: 0vh .4vw;
+}
+@media screen and (max-width:768px){
+    .input-field-inner{
+        padding: 2vh 26vw;
+    }
+    .input-field p{
+        font-size: 2vw;
+    }
+    .input-field-inner-text-area{
+        padding: 8vh 26vw;
+    }
+    
+    .form-container{
+        align-items: center;
+    }
+}
+@media screen and (max-width:640px){
+    .input-field-inner{
+        padding: 2vh 18vw;
+    }
+    .input-field-inner-text-area{
+        padding: 8vh 18vw;
+    }
+    .input-field p{
+        font-size: 2.5vw;
+    }
+}

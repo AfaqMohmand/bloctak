@@ -1,0 +1,153 @@
+.header-content{
+    flex-basis: 50%;
+}
+.Header-section{
+    padding: 3vh 7vw;
+}
+.header-img{
+    flex-basis: 50%;
+}
+.header-content-h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 13vh;
+    font-size:  5.46875vw;
+    color: #F2F2F2;
+}
+.btn-header img{    
+    vertical-align: middle;
+}
+.btn-header{
+    margin-bottom: 1vh;
+}
+.header-span{
+    background: linear-gradient(86.02deg, #009CCC 0%, #00BCB3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header-content-p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size:  1.718vw;
+    padding-bottom: 7vh;
+    padding-top: 7vh;
+    color: #F2F2F2;
+}
+.header-inner-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 10vw;
+    padding-top: 6vh;
+}
+.header-inner-flex h3{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.875vw;
+    color: #F2F2F2;
+}
+.book-meeting{
+    background: #FFFFFF;
+    border-radius: 30px;
+    max-width: max-content;
+    padding: 1.7vh 1vw;
+    margin-left: 1vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    border: none;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0A0A0A;
+}
+.book-meeting img{
+    vertical-align: middle;
+    padding-right: 0.5vw;
+}
+.header-inner-flex h3 span{
+    background: linear-gradient(86.02deg, #009CCC 0%, #00BCB3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.header-inner-flex h5{
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.015625vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: #F2F2F2;
+}
+.btns-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header-img img{
+    width: 40vw;
+    padding-left: 8vw;
+}
+@media screen and (max-width:768px){
+    .Header-Btn{
+        font-size: 3vw !important;
+        padding: 2vh 3vw;
+    }
+    .btns-container{
+        justify-content: space-evenly;
+    }
+    .Header-Btn img{
+        height: 3vh;
+    }
+    .book-meeting{
+        font-size: 3vw !important;
+        padding: 2vh 3vw;
+    }
+    .book-meeting img{
+        height: 3vh;
+    }
+    .Header-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-img{
+        display: none;
+    }
+    .header-content-h1{
+        text-align: center;
+        font-size: 8vw;
+        line-height: 7vh;
+    }
+    .header-content-p{
+        text-align: center;
+        font-size: 4vw;
+    }
+    .header-inner-flex h3{
+        align-items: center;
+        font-size: 3.5vw;
+    }
+    .header-inner-flex h5{
+        font-size: 2.5vw;
+    }
+
+}
+@media screen and (min-width:769px) and (max-width:1025px){
+    .Header-section{
+        border: 1px solid yellow;
+    }
+    .header-content-h1{
+        line-height: 7vh;
+    }
+    .Header-Btn{
+        font-size: 2vw !important;
+    }
+    .Header-Btn img{
+        height: 3vh;
+    }
+}

@@ -1,0 +1,114 @@
+.navbar {
+  background-color: #0A0E13;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1vh 6vw;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.nav-container ul{
+  display: flex;
+  justify-content: flex-end;
+}
+.fa-code {
+  margin-left: 1rem;
+}
+.navbar ul li{
+  list-style: none;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-weight: 500;
+  align-items: center;
+  font-style: normal;
+  font-size: 1.25vw;
+  text-align: center;
+  color: #F2F2F2;
+}
+.nav-item {
+  margin-right: 1rem;
+}
+.nav-item:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.nav-item:hover:after {
+  width: 100%;
+  background: #F2F2F2;
+}
+.nav-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar-Btn{
+    display: none;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid #fff;
+    position: absolute;
+    top: 80px;
+    padding: 10vh 0vw;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar ul li a{
+    font-size: 3vw;
+  }
+  .navbar ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-menu.active {
+    background-color: #0A0E13;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .nav-menu ul li  {
+    padding: 4rem;
+    width: 100%;
+  }
+  .nav-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #F2F2F2;
+  }
+  .nav-icon:active{
+    color: #F2F2F2;
+  }
+}
+@media screen and (max-width:650px){
+  .nav-menu ul li a{
+    font-size: 4vw;
+    padding: 10vh 0vw;
+  }
+}

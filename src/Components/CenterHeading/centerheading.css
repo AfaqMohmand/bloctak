@@ -1,0 +1,30 @@
+.center-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+}
+.center-heading img{
+    height: 6vh;
+}
+.center-heading-h1{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    font-size:3.4375vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.center-heading-h1 span{
+    background: linear-gradient(86.02deg, #009CCC 0%, #00BCB3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+@media screen and (min-width:359px) and (max-width:768px){
+    .center-heading-h1{
+        font-size: 7vw;
+    }
+}

@@ -1,0 +1,103 @@
+.team-section{
+    padding: 15vh 7vw;
+}
+.team-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh 4vw 12vh 4vw;
+    flex-direction: column;
+    background-color:#131A24;
+    flex-wrap: wrap;
+}
+.team-cards-h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 1.5625vw;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 9vh;
+    color: #F2F2F2;
+}
+.team-cards-p{
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25vw;
+    letter-spacing: 0.18em;
+    text-align: center;
+    padding-bottom: 2vh;
+    color: #8C8C8C;
+}
+.team-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team-cards img{
+    height: 34vh;
+    width: 16vw;
+}
+.team-section-cards{
+    display: grid;
+    /* justify-content: space-evenly;
+    align-items: center; */
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.team-icons a{
+    border-radius: 40px;
+    padding: 5px;
+    background: linear-gradient(86.02deg, #009CCC 0%, #00BCB3 100%);
+    color: white;
+    margin: 0px 0.4vw;
+}
+@media screen and (max-width:390px){
+    .team-cards img{
+        height: 16vh;
+        width: 30vw;
+    }
+}
+@media screen and (max-width:440px){
+    .team-cards img{
+        height: 14vh;
+        width: 30vw;
+    }
+}
+@media screen and (max-width:540px){
+    .team-cards img{
+        height: 22vh;
+        width: 28vw;
+    }
+}
+@media screen and (max-width:830px){
+    .team-cards img{
+        height: 19vh;
+    }
+}
+@media screen and (max-width:912px){
+    .team-cards img{
+        height: 20vh;
+        width: 32vw;
+    }
+    .team-icons{
+        padding: 30px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:1025px){
+    .team-cards{
+        grid-column: 1/4;
+    }
+    .team-cards-h1{
+        font-size: 5vw;
+    }
+    .team-cards-p{
+        font-size: 4vw;
+    }
+    .team-icons{
+        transform: scale(0.7);
+    }
+    .team-icons a{
+        margin: 0px 6px;
+    }
+}
